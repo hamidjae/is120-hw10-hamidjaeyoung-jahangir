@@ -1,6 +1,6 @@
 # JavaScript Randomized Weather Forecast
 
-(Live Link)[https://hamidjae.github.io/is120-hw10-hamidjaeyoung-jahangir/]
+[https://hamidjae.github.io/is120-hw10-hamidjaeyoung-jahangir/](Live Link)
 
 ## What specific loops did you use in this assignment and why?
 There were two For loops used in this assignments. One For loop was used in the generateRandomTemperatures function, taking days as a parameter and pushing temperatures onto the randomTemps array. The second For loop was used for the displayForecasts function, running the loop through the entire array in order to push the temperatures into the DOM. In both cases, I used the For loop as I knew how long the size of the array would be. Using a While loop would be unnecessary as it would add complexity where it shouldn't be. A For loop lets me control how long the loop runs, and since I know how long the loop should be, it was perfect for this assignment. I did not use any other loops in this assignment.

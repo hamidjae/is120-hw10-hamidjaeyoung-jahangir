@@ -1,0 +1,89 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f7fb;
+  color: #1f2937;
+  padding: 32px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+p {
+  text-align: center;
+  margin-bottom: 28px;
+  color: #4b5563;
+}
+
+.forecast-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 16px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.card {
+  border-radius: 14px;
+  padding: 20px;
+  color: white;
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.12);
+  transition: transform 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+}
+
+.card h2 {
+  margin: 0 0 12px;
+  font-size: 1.15rem;
+}
+
+.temp {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.category {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.cold {
+  background: linear-gradient(135deg, #3b82f6, #1d4ed8);
+}
+
+.mild {
+  background: linear-gradient(135deg, #10b981, #059669);
+}
+
+.hot {
+  background: linear-gradient(135deg, #f97316, #dc2626);
+}
+
+.controls {
+  text-align: center;
+  margin-top: 24px;
+}
+
+button {
+  border: none;
+  background: #111827;
+  color: white;
+  padding: 12px 18px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+button:hover {
+  background: #374151;
+}
